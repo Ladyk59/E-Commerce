@@ -18,7 +18,7 @@ img {
 }
 
 p {
-    line-height: 1.5;;
+    line-height: 1.5;
 }
 
 .nav__container {
@@ -91,6 +91,7 @@ header {
 
 
 .header__description {
+    margin-bottom: -100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +134,7 @@ h2 {
     transform: translateY(1px);
 }
 .header__img--wrapper {
-    margin-top: 500px 0 0;
+    margin-top: 120px;
     padding: 0 20px;
     max-width: 600px;
     gap: 16px;
@@ -160,14 +161,15 @@ HIGHLIGHTS
 
 .highlight__wrapper {
     padding: 0 24px;
-    max-width: 600px;
+    max-width: 1000px;
     display: flex;
     margin: 0 auto;
-
+   
 }
 
 .highlight {
-    padding: 0 24px;;
+    margin-bottom: 100px;
+    padding: 0 24px;
     width: calc(100% / 3);
     display: flex;
     align-items: center;
@@ -177,7 +179,7 @@ HIGHLIGHTS
 
 .highlight__para {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .highlight__img {
@@ -189,8 +191,9 @@ HIGHLIGHTS
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    font-size: 8px
-    margin-bottom: 24px;
+    font-size: 8px;
+   margin-bottom: 24px;
+    
 }
 
 .highlight__subtitle {
