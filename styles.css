@@ -138,6 +138,8 @@ h2 {
     justify-content: center;
     max-width: 600px;
     margin-top: 120px;
+    position: relative;
+    z-index: 2;
    
 }
 
@@ -159,22 +161,35 @@ HIGHLIGHTS
 */
 
 #highlights {
-    position: relative;  
+    position: relative; 
+    max-width: 100vh; 
 
 }
 
-#highlights:before {
+#highlights:before,
+#highlights:after {
 background: url('assets/wave.svg');
 content: "";
 position: absolute;
 width: 101vw;
-height: 14vw;
+height: 12vw;
 bottom: 100%;
 left: 0;
 z-index: 1;
 background-size: cover;
 background-repeat: no-repeat;
 }
+
+#highlights:bfore {
+top: 1px;
+transform: translateY(-100%);
+}
+
+#highlightS:after {
+    bottom: 1px;
+    transform: translateY(100%) rotate(180deg);
+}
+
 
 
 .highlight__wrapper {
