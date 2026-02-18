@@ -17,6 +17,19 @@
             <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
           </ul>
         </div>
+        <button class="btn__menu">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close">
+          <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+            <li class="menu__list"><a href="features" class="menu__link">Books</a></li>
+            <li class="menu__list"><a class="menu__link no-cursor">Contact</a></li>
+          </ul>
+        </div>
       </nav>
       <header>
         <div class="header__container">
@@ -303,8 +316,43 @@
                 </div>
                 <div class="book__price">
                   <span class="book__price--normal">$59.95</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
+      <section id="explore">
+        <div class="container">
+          <div class="row row__column">
+            <h2>Explore more <span class="purple">Books</span></h2>
+            <a href="features">
+            <button class="btn" type="button">Browse books</button>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="container">
+        <div class="row row__column">
+          <a href="#">
+            <figure class="footer__logo">
+              <img src="./assets/Library.svg" class="footer__logo--img" alt="Library logo" />
+            </figure>
+          </a>
+          <div class="footer__list">
+            <a href="#" class="footer__link">Home</a>
+            <a href="#" class="footer__link">About</a>
+            <a href="#" class="footer__link">Books</a>
+            <a href="#" class="footer__link">Contact</a>
+          </div>
+          <div class="footer__copyright">
+            Copyright &copy; 2026 Library
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
+
 </html>
